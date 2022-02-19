@@ -1,7 +1,7 @@
 package solution_test
 
 import (
-	"quickstart/solution"
+	"square/solution"
 	"testing"
 
 	"github.com/kyokomi/emoji"
