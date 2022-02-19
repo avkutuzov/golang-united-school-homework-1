@@ -1,7 +1,7 @@
 package main
 
 import (
-	"quickstart/solution"
+	"square/solution"
 )
 
 func main() {
