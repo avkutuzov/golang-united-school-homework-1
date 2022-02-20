@@ -1,9 +1,9 @@
-package main
+package solution
 
-import (
-	"solution/solution"
+import(
+	"github.com/kyokomi/emoji"
 )
 
-func main() {
-	print(solution.GetMessage())
+func GetMessage() string {
+	return emoji.Sprint("Hello :world_map:!")
 }
