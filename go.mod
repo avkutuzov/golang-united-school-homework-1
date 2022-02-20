@@ -1,4 +1,4 @@
-module gounited/lecture1
+module solution
 
 go 1.17
 

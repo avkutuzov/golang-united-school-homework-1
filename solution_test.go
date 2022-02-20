@@ -1,14 +1,16 @@
-package main_test
+package main
 
 import (
-	"gounited/lecture1/solution"
+	"strings"
 	"testing"
-
-	"github.com/kyokomi/emoji"
+	"solution/solution"
 )
 
-func TestSolution(t *testing.T) {
-	if solution.GetMessage() != emoji.Sprint("Hello :world_map:!") {
-		t.Fatal("Wrong solution!")
+func TestGetMessage(t *testing.T) {
+	expected := string([]rune{72, 101, 108, 108, 111, 32, 128506, 65039, 32, 33})
+	msg := solution.GetMessage()
+
+	if !strings.EqualFold(msg, expected) {
+		t.Errorf("Unexpected result:\n\tExpected: %q\n\tGot: %q", expected, msg)
 	}
 }
