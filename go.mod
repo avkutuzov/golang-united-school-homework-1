@@ -1,4 +1,4 @@
-module square
+module gounited/lecture1
 
 go 1.17
 

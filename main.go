@@ -1,7 +1,7 @@
 package main
 
 import (
-	"square/solution"
+	"gounited/lecture1/solution"
 )
 
 func main() {
